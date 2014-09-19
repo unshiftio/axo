@@ -1,0 +1,17 @@
+{
+  "name": "axo",
+  "version": "0.0.0",
+  "description": "Return an ActiveXObject without mentioning it in the source",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ActiveX",
+    "ActiveXObject",
+    "active-x",
+    "active-x-object"
+  ],
+  "author": "Arnout Kazemier",
+  "license": "MIT"
+}
