@@ -1,5 +1,7 @@
 # AXO
 
+[![Build Status](https://travis-ci.org/unshiftio/axo.svg?branch=master)](https://travis-ci.org/unshiftio/axo)
+
 AXO stands for **A**ctive**XO**bject. And the sole purpose of this library is to
 return the `ActiveXObject` constructor from the environment it's loaded in.
 Normally you would just reference the constructor directly by simply mentioning
