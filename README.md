@@ -1,6 +1,8 @@
 # AXO
 
 [![Build Status](https://travis-ci.org/unshiftio/axo.svg?branch=master)](https://travis-ci.org/unshiftio/axo)
+[![NPM version](https://badge.fury.io/js/axo.svg)](http://badge.fury.io/js/axo)
+[![Coverage Status](https://img.shields.io/coveralls/unshiftio/axo.svg)](https://coveralls.io/r/unshiftio/axo?branch=master)
 
 AXO stands for **A**ctive**XO**bject. And the sole purpose of this library is to
 return the `ActiveXObject` constructor from the environment it's loaded in.
