@@ -1,8 +1,6 @@
 # AXO
 
-[![Build Status](https://travis-ci.org/unshiftio/axo.svg?branch=master)](https://travis-ci.org/unshiftio/axo)
-[![NPM version](https://badge.fury.io/js/axo.svg)](http://badge.fury.io/js/axo)
-[![Coverage Status](https://img.shields.io/coveralls/unshiftio/axo.svg)](https://coveralls.io/r/unshiftio/axo?branch=master)
+[![Made by unshift](https://img.shields.io/badge/made%20by-unshift-00ffcc.svg?style=flat-square)](http://unshift.io)[![Version npm](http://img.shields.io/npm/v/axo.svg?style=flat-square)](http://browsenpm.org/package/axo)[![Build Status](http://img.shields.io/travis/unshiftio/axo/master.svg?style=flat-square)](https://travis-ci.org/unshiftio/axo)[![Dependencies](https://img.shields.io/david/unshiftio/axo.svg?style=flat-square)](https://david-dm.org/unshiftio/axo)[![Coverage Status](http://img.shields.io/coveralls/unshiftio/axo/master.svg?style=flat-square)](https://coveralls.io/r/unshiftio/axo?branch=master)[![IRC channel](http://img.shields.io/badge/IRC-irc.freenode.net%23unshift-00a8ff.svg?style=flat-square)](http://webchat.freenode.net/?channels=unshift)
 
 AXO stands for **A**ctive**XO**bject. And the sole purpose of this library is to
 return the `ActiveXObject` constructor from the environment it's loaded in.
