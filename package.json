@@ -4,7 +4,9 @@
   "description": "Return an ActiveXObject without mentioning it in the source",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "coverage": "istanbul cover test.js",
+    "test-travis": "istanbul cover --report lcovonly test.js"
   },
   "keywords": [
     "ActiveX",
@@ -14,6 +16,10 @@
   ],
   "author": "Arnout Kazemier",
   "license": "MIT",
+  "devDependencies": {
+    "istanbul": "0.3.x",
+    "pre-commit": "0.0.x"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/unshiftio/axo.git"

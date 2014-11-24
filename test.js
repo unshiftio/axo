@@ -1,3 +1,4 @@
+/* istanbul ignore next */
 this.ActiveXObject = global.ActiveXObject = function foobar() {
   // Node doesn't have an ActiveXObject so introduce it as global.
 };
