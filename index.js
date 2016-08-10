@@ -11,5 +11,5 @@ module.exports = (function AXO(x, i) {
     x[i] = String.fromCharCode(x[i].charCodeAt(0) + i);
   }
 
-  return this[x.join('')];
+  return global[x.join('')];
 })('Abrfr`RHZa[Xh'.split(''));
