@@ -7,9 +7,11 @@
 // by changing the charCodes.
 //
 module.exports = (function AXO(x, i) {
+  var target = typeof global !== 'undefined' ? global : window;
+
   for (i = 0; i < x.length; i++) {
     x[i] = String.fromCharCode(x[i].charCodeAt(0) + i);
   }
 
-  return global[x.join('')];
+  return target[x.join('')];
 })('Abrfr`RHZa[Xh'.split(''));
