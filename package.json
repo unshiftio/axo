@@ -17,8 +17,8 @@
   "author": "Arnout Kazemier",
   "license": "MIT",
   "devDependencies": {
-    "istanbul": "0.3.x",
-    "pre-commit": "1.0.x"
+    "istanbul": "~0.4.5",
+    "pre-commit": "~1.1.3"
   },
   "repository": {
     "type": "git",
